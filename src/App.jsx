@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './css/App.css';
 import {Header} from './components/header.jsx';
 import Footer from './components/footer.jsx'
 import Body from './components/body';
@@ -62,7 +62,7 @@ class App extends Component {
 
         <Body usersList={this.state.usersList}/>
       
-        <Footer/>
+        {/* <Footer/> */}
       
       </div>
     );

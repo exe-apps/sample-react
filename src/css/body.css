@@ -1,0 +1,31 @@
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    height: 80%;
+    padding: 20px 20px 20px 50px;
+}
+
+.user-list {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list li {
+    background: rgb(217, 223, 224);
+    padding: 2em;
+    border-radius: 4px;
+    margin: 0 0 15px 0;
+}
+
+.user-list p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.user-list img {
+    border-radius: 75%;
+}
+
+.user {
+    display: inline-block;
+}
